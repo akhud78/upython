@@ -4,6 +4,7 @@
 - [MkDocs - Project documentation with Markdown](https://www.mkdocs.org/)
 - Сборка
 ```
+$ rmvirtualenv mkdocs  # clean
 $ mkvirtualenv mkdocs -p python3
 (mkdocs) $ python -m pip install pip-tools
 (mkdocs) $ cd upython

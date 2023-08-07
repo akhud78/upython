@@ -8,7 +8,12 @@ theme:
   highlightjs: true
   locale: ru
 plugins:
-  - with-pdf
+#  - with-pdf:
+#      author: akhud78
+#      copyright: Navtelecom
+#      cover_subtitle: версия 0.1
+#      toc_title: Содержание
+#      output_path: upython.pdf
   - search:
       lang: ['en']
   - autorefs
