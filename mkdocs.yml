@@ -1,6 +1,8 @@
 site_name: uPython
 nav:
   - 'uPython': index.md
+  - 'Руководство': tutorial.md
+  - 'Сборка': building.md
 theme:
   name: readthedocs
   highlightjs: true

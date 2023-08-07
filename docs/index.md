@@ -1,1 +1,12 @@
-# Документация по uPython для ESP32-S3 
+# Документация по uPython для ESP32-S3
+
+## О проекте
+
+- Проект uPython осовывается на [CircuitPython](https://docs.circuitpython.org/en/latest/README.html) |ˈsɜːkɪt ˈpaɪθ(ə)n| и является версией языка [MicroPython](https://docs.micropython.org/en/latest/). Разработка CircuitPython поддерживается [Adafruit Industries](https://en.wikipedia.org/wiki/Adafruit_Industries) с 2017 года.
+- uPython ориентирован на микроконтроллеры [Espressif ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3).
+- Для тестирования используется отладочная плата `S3W4`. &#128679;
+
+!!! warning "Внимание"
+    Эта документация находится в начальной стадии разработки!
+
+## Отличия от MicroPython
