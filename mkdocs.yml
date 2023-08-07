@@ -8,6 +8,7 @@ theme:
   highlightjs: true
   locale: ru
 plugins:
+  - with-pdf
   - search:
       lang: ['en']
   - autorefs
