@@ -1,0 +1,22 @@
+site_name: uPython
+nav:
+  - 'uPython': index.md
+theme:
+  name: readthedocs
+  highlightjs: true
+  locale: ru
+plugins:
+  - search:
+      lang: ['en']
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
+
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
