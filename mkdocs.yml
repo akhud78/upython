@@ -3,6 +3,7 @@ nav:
   - 'uPython': index.md
   - 'Руководство': tutorial.md
   - 'Сборка': building.md
+  - 'API': api.md
 theme:
   name: readthedocs
   highlightjs: true
