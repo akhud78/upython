@@ -2,7 +2,9 @@ site_name: uPython
 nav:
   - 'uPython': index.md
   - 'Руководство': tutorial.md
+  - 'Thonny': thonny.md
   - 'Сборка': building.md
+  - 'ESP32-S3': esp32-s3.md
   - 'API': api.md
 theme:
   name: readthedocs
