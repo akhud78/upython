@@ -6,7 +6,7 @@
 !!! warning "Внимание"
     Сохраните свой старый код перед обновлением прошивки устройства!
 
-- Скачайте последнюю версию [CircuitPython](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2/). Нужен файл с расширением **bin**.
+- Скачайте последнюю версию [CircuitPython](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2/). Нужен файл с расширением `bin`.
 - Подключите плату `ESP32-S3-DevKitC` к компьютеру через micro-USB разъем с маркировкой `USB`.
 - Переведите плату в загрузочный режим:
     - Удерживайте кнопку `BOOT`.
@@ -15,7 +15,7 @@
 
 ### Обновление прошивки через веб службу
 
-- Откройте [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/).
+- Откройте [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/) с помощью браузера [Chrome](https://www.google.com/intl/ru_ru/chrome/) версии `89` или новее.
 - Установите скорость `230400 Baud`. 
 - Нажмите кнопку `Connect` и выберите соответствующий порт.
 - После успешного определения устройства нажмите кнопку `Erase` для очистки памяти. 
@@ -23,7 +23,7 @@
 - Нажмите кнопку `Program` и после завершения обновления прошивки нажмите `Disconnect`.
 
 ### Обновление прошивки с помощью `esptool`
-- Установите через менеджер пакетов pip утилиту [esptool](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/index.html).
+- Установите через менеджер пакетов [pip](https://pip.pypa.io/en/stable/getting-started/) утилиту [esptool](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/index.html).
 ```bash
 $ pip install esptool
 ```
