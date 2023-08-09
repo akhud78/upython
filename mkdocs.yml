@@ -1,11 +1,21 @@
 site_name: uPython
 nav:
   - 'uPython': index.md
+  - 'Руководство': tutorial.md
+  - 'Сборка': building.md
+  - 'API': api.md
 theme:
   name: readthedocs
+# name: mkdocs
   highlightjs: true
   locale: ru
 plugins:
+#  - with-pdf:
+#      author: akhud78
+#      copyright: Navtelecom
+#      cover_subtitle: версия 0.1
+#      toc_title: Содержание
+#      output_path: upython.pdf
   - search:
       lang: ['en']
   - autorefs
@@ -20,3 +30,11 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+#  - pymdownx.highlight:
+#      anchor_linenums: true
+#      line_spans: __span
+#      pygments_lang_class: true
+#  - pymdownx.inlinehilite
+#  - pymdownx.snippets
+#  - pymdownx.superfences
+
