@@ -6,6 +6,7 @@ nav:
   - 'API': api.md
 theme:
   name: readthedocs
+# name: mkdocs
   highlightjs: true
   locale: ru
 plugins:
@@ -29,3 +30,11 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+#  - pymdownx.highlight:
+#      anchor_linenums: true
+#      line_spans: __span
+#      pygments_lang_class: true
+#  - pymdownx.inlinehilite
+#  - pymdownx.snippets
+  - pymdownx.superfences
+

@@ -104,7 +104,9 @@ pydyf==0.7.0
 pygments==2.16.1
     # via sphinx
 pymdown-extensions==10.1
-    # via mkdocstrings
+    # via
+    #   -r docs/requirements.in
+    #   mkdocstrings
 pyphen==0.14.0
     # via weasyprint
 python-dateutil==2.8.2

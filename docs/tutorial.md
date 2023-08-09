@@ -44,7 +44,7 @@ UF2-загрузчик содержится в `CircuitPython`. Если уст�
 - Откройте файл `code.py` в тестовом редакторе и скопируйте туда данный скрипт.
 - Сохраните файл. Через несколько секунд RGB светодиод на плате `YD-ESP32-S3` выдаст серию вспышек.
 
-```python
+```{.python linenums="1"}
 import time
 import board
 import neopixel_write
@@ -52,7 +52,7 @@ import digitalio
 
 pin = digitalio.DigitalInOut(board.NEOPIXEL)
 pin.direction = digitalio.Direction.OUTPUT
-led_off = bytearray([0, 0, 0])  
+led_off = bytearray([0, 0, 0])
 led_on = bytearray([255, 0, 0])  # grb
 
 for _ in range(10):
@@ -61,6 +61,7 @@ for _ in range(10):
     neopixel_write.neopixel_write(pin, led_off)
     time.sleep(0.1)
 ```
+
 - Для написания кода можно использовать любой текстовый редактор. 
 - Из специализированных редакторов можно порекомендовать [Thonny](https://thonny.org/).
 
