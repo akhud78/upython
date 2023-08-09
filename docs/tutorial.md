@@ -7,7 +7,7 @@
     Сохраните свой старый код перед обновлением прошивки устройства!
 
 - Скачайте последнюю версию [CircuitPython](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2/). Нужен файл с расширениенм **bin**.
-- Подключите плату `ESP32-S3-DevKitC` к компьютеру через микро USB разъем с маркировкой `USB`.
+- Подключите плату `ESP32-S3-DevKitC` к компьютеру через micro-USB разъем с маркировкой `USB`.
 - Переведите плату в загрузочный режим:
     - Удерживайте кнопку `BOOT`.
     - Нажмите и отпустите кнопку `RESET`.
@@ -15,11 +15,11 @@
 
 ### Обновление прошивки через веб службу
 
-- Откройте сайт [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/).
+- Откройте [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/).
 - Установите скорость `230400 Baud`. 
 - Нажмите кнопку `Connect` и выберите соответствующий порт.
 - После успешного определения устройства нажмите кнопку `Erase` для очистки памяти. 
-- Нажмите верхнюю кнопку 'Choose a file...' и выберите файл с прошивкой.
+- Нажмите верхнюю кнопку `Choose a file...` и выберите файл с прошивкой.
 - Нажмите кнопку `Program` и после завершения обновления прошивки нажмите `Disconnect`.
 
 ### Обновление прошивки с помощью `esptool`
@@ -31,7 +31,7 @@ $ pip install esptool
 ```bash
 $ esptool.py --port /dev/ttyACM0 erase_flash
 $ esptool.py --chip esp32s3 --port /dev/ttyACM0 write_flash -z 0 \
-  adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r2-en_GB-8.X.X.bin
+  adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r2-en_GB-8.2.2.bin
 ```
 
 ## Старт системы
@@ -53,7 +53,7 @@ UID:C7FD1A2EB602
     - Блок кода определяется **одинаковым** количеством пробелов в начале строки (обычно четыре).
 - Откройте файл `code.py` и скопируйте туда данный скрипт.
 - Сохраните файл. Через несколько секунд RGB светодиод на плате выдаст серию вспышек.
-- При нажатии на кнопку `RST` произойдет перезагрузка устройства и скрипт запустится вновь.
+- При нажатии на кнопку `RESET` произойдет перезагрузка устройства и скрипт запустится вновь.
 
 ```py
 import time                                     # 1
@@ -64,7 +64,7 @@ import digitalio
 pin = digitalio.DigitalInOut(board.NEOPIXEL)    # 2
 pin.direction = digitalio.Direction.OUTPUT
 led_off = bytearray([0, 0, 0])
-led_on = bytearray([255, 0, 0])
+led_on = bytearray([0, 0, 255])     # blue
 
 for _ in range(10):                             # 3
     neopixel_write.neopixel_write(pin, led_on)
