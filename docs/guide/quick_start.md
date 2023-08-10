@@ -1,7 +1,7 @@
 # Начало работы
 &#127891; [Welcome To CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython?view=all) 
 
-## Установка CircuitPython
+## Установка `CircuitPython`
 
 !!! warning "Внимание"
     Сохраните свой старый код перед обновлением прошивки устройства!
@@ -13,9 +13,9 @@
     - Нажмите и отпустите кнопку `RESET`.
     - Отпустите кнопку `BOOT`.
 
-### Обновление через веб службу
+### Обновление через `ESP Web Flasher`
 
-- Откройте [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/) с помощью браузера [Chrome](https://www.google.com/intl/ru_ru/chrome/) версии `89` или новее.
+- Откройте веб службу [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/) с помощью браузера [Chrome](https://www.google.com/intl/ru_ru/chrome/) версии `89` или новее.
 - Установите скорость `230400 Baud`. 
 - Нажмите кнопку `Connect` и выберите соответствующий порт.
 - После успешного определения устройства нажмите кнопку `Erase` для очистки памяти. 
@@ -46,7 +46,7 @@ Board ID:espressif_esp32s3_devkitc_1_n8r2
 UID:C7FD1A2EB602
 ```
 
-## Запуск скрипта
+## Запуск скрипта `rgb_blink`
 
 - Для написания кода можно использовать любой текстовый редактор.
     - Простые комментарии начинаются со знака `#`.

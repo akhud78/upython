@@ -1,5 +1,4 @@
 site_name: uPython
-use_directory_urls: true
 nav:
   - 'Документация': index.md
   - '&#128640; Руководство':
@@ -34,8 +33,6 @@ plugins:
             docstring_style: sphinx
 
 markdown_extensions:
-  - toc:
-      permalink: true
   - markdown_include.include:
       base_path: .
   - admonition

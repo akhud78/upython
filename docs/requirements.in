@@ -1,6 +1,7 @@
 mkdocs
 mkdocs[i18n]
 mkdocs-with-pdf
+mkdocs-autorefs
 sphinx-rtd-theme
 mkdocstrings[python]
 markdown-include
