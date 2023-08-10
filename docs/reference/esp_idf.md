@@ -1,4 +1,4 @@
-# ESP-IDF
+# Фреймворк ESP-IDF
 
  - [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/v5.0.2/esp32s3/index.html)
  - [Standard Toolchain Setup for Linux and macOS](https://docs.espressif.com/projects/esp-idf/en/v5.0.2/esp32s3/get-started/linux-macos-setup.html)
@@ -14,7 +14,7 @@
 $ sudo apt-get install git wget flex bison gperf python3 python3-venv cmake \
   ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
 ```
-### Установка и настройка фреймворка
+### Установка фреймворка
 - Версия `5.0.2`
 
 ```bash
@@ -25,4 +25,4 @@ $ cd esp-idf-v5.0.2/
 $ ./install.sh
 ```
 
-## Примеры
+{!docs/reference/foo_bar.md!}

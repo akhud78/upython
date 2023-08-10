@@ -8,7 +8,7 @@ nav:
     - 'Сборка TFLite Micro': tflite/building.md
   - '&#128218; Справочник':
     - 'CircuitPython': reference/circuit_python.md
-    - 'ESP-IDF': reference/esp_idf.md
+    - 'Фреймворк ESP-IDF': reference/esp_idf.md
     - 'API Helpers': reference/api_helpers.md
 theme:
   name: readthedocs
