@@ -4,12 +4,15 @@ nav:
   - '&#128640; Руководство':
     - 'Начало работы': guide/quick_start.md
     - 'Сборка CircuitPython': guide/cpy_building.md
-  - '&#128036; TFLite':
-    - 'Сборка TFLite Micro': tflite/building.md
+  - '&#128036; TinyML':
+    - 'TFLite Micro': tinyml/tflite.md
   - '&#128218; Справочник':
-    - 'CircuitPython': reference/circuit_python.md
-    - 'Фреймворк ESP-IDF': reference/esp_idf.md
-    - 'API Helpers': reference/api_helpers.md
+    - 'CircuitPython': ref/circuit_python.md
+    - 'ESP-IDF': ref/esp_idf.md
+    - 'API Helpers': ref/api_helpers.md
+  - '&#127858; Рецепты':
+    - 'Дисплей': howto/display.md
+
 theme:
   name: readthedocs
 # name: mkdocs

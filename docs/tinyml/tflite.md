@@ -1,11 +1,14 @@
-# Сборка TFLite Micro
+# TFLite Micro
 
-  - [TensorFlow Lite Micro for Espressif Chipsets](https://github.com/espressif/tflite-micro-esp-examples)
+- [TinyML революционизирует машинное обучение во встроенных системах](https://clck.ru/35Grj6)
+> `TinyML` относится к применению машинного обучения и моделей глубокого обучения во встроенных системах с небольшими вычислительными ресурсами, таких как микроконтроллеры. Эти системы имеют сверхнизкое энергопотребление, ограниченный объем оперативной и флэш-памяти и работают с высокой задержкой.
+> 
+> [TFLite](https://www.tensorflow.org/lite?hl=ru) в настоящее время является основной средой для `TinyML`, предлагая поддержку микроконтроллеров, встроенных платформ Linux, Android и iOS. Модели TinyML имеют небольшой размер, обычно несколько килобайт, и выполняют определенные когнитивные задачи внутри устройства.
+- [TensorFlow Lite Micro for Espressif Chipsets](https://github.com/espressif/tflite-micro-esp-examples)
 
-## Установка
+## Установка `TFLite`
 
-- [Установить ESP-IDF](../reference/esp_idf.md)
-- [Пример `foo_bar`][foo_bar]
+- [Установить ESP-IDF](../ref/esp_idf.md#install)
 - Клонировать проект
 
 ```bash
@@ -21,7 +24,8 @@ $ . $HOME/esp/esp-idf-v5.0.2/export.sh
 $ idf.py --version
 ESP-IDF v5.0.2-dirty
 ```
-
+## Примеры
+- [TensorFlow Lite для микроконтроллеров](https://www.tensorflow.org/lite/microcontrollers?hl=ru)
 ## Пример `Hello World`
 
 ```bash
@@ -95,3 +99,4 @@ person score:82%, no person score 18%
 I (6710) [esp_cli]: Time required for the inference is 56 ms
 
 ```
+
