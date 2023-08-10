@@ -1,7 +1,5 @@
-# API
+# API Helpers
 
 &#128013; [Core Modules](https://docs.circuitpython.org/en/latest/shared-bindings/index.html#modules)
 
-## Helpers
-
-::: modules.helpers.rgb_blink
+::: examples.helpers.rgb_blink

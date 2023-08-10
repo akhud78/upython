@@ -1,4 +1,4 @@
-# Документация по uPython для ESP32-S3
+# Документация uPython для ESP32-S3
 
 ## О проекте
 
@@ -13,5 +13,3 @@
 !!! warning "Внимание"
     Эта документация находится в начальной стадии разработки!
 
-## Отличия от MicroPython и Python
-- [Краткая справка по Python](https://quickref.me/python.html#python-strings)

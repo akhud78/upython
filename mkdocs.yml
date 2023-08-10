@@ -1,11 +1,16 @@
 site_name: uPython
+use_directory_urls: true
 nav:
-  - 'uPython': index.md
-  - 'Руководство': tutorial.md
-  - 'Thonny': thonny.md
-  - 'Сборка': building.md
-  - 'ESP32-S3': esp32-s3.md
-  - 'API': api.md
+  - 'Документация': index.md
+  - '&#128640; Руководство':
+    - 'Начало работы': guide/quick_start.md
+    - 'Сборка CircuitPython': guide/cpy_building.md
+  - '&#128036; TFLite':
+    - 'Сборка TFLite Micro': tflite/building.md
+  - '&#128218; Справочник':
+    - 'CircuitPython': reference/circuit_python.md
+    - 'ESP-IDF': reference/esp_idf.md
+    - 'API Helpers': reference/api_helpers.md
 theme:
   name: readthedocs
 # name: mkdocs
@@ -29,6 +34,8 @@ plugins:
             docstring_style: sphinx
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - markdown_include.include:
       base_path: .
   - admonition
