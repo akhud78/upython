@@ -1,9 +1,20 @@
 site_name: uPython
 nav:
-  - 'uPython': index.md
-  - 'Руководство': tutorial.md
-  - 'Сборка': building.md
-  - 'API': api.md
+  - 'Документация': index.md
+  - '&#128640; Руководство':
+    - 'Начало работы': guide/cpy_start.md
+    - 'Сборка CircuitPython': guide/cpy_building.md
+  - '&#128036; TinyML':
+    - 'Обзор': tinyml/review.md
+    - 'TFLite Micro': tinyml/tflite.md
+    - 'Edge Impulse' : tinyml/edge_impulse.md
+  - '&#128218; Справочник':
+    - 'CircuitPython': ref/cpy.md
+    - 'ESP-IDF': ref/esp_idf.md
+    - 'API Helpers': ref/api_helpers.md
+  - '&#128295; Рецепты':
+    - 'OneWire': howto/onewire.md
+
 theme:
   name: readthedocs
 # name: mkdocs

@@ -1,6 +1,7 @@
 # upython
-Документация по uPython для ESP32-S3
+Micro Python для ESP32-S3
 
+## Документация
 - [MkDocs - Project documentation with Markdown](https://www.mkdocs.org/)
 - Сборка
 ```

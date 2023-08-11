@@ -1,3 +1,0 @@
-# API
-
-::: rgb_blink
