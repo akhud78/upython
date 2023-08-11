@@ -77,4 +77,10 @@ I (6710) [esp_cli]: Time required for the inference is 56 ms
 ```
 
 ## Другие примеры
-
+- [tflite-micro-esp-examples](https://github.com/espressif/tflite-micro-esp-examples)
+- [hello_world](https://github.com/espressif/tflite-micro-esp-examples/tree/master/examples/hello_world)
+- Click the line number you want to start on (again, line 20) and shift+click the line you want to end on
+- [main_functions.cc#L17-L20](https://github.com/espressif/tflite-micro-esp-examples/blob/master/examples/hello_world/main/main_functions.cc#L17-L20)
+- [main_functions.cc#L17-L20](https://github.com/espressif/tflite-micro-esp-examples/blob/df6497ed8a8eebdfbe707a82beee8b5f31483a60/examples/hello_world/main/main_functions.cc#L17-L20) - permanent link
+- [Creating a permanent link to a code snippet](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet)
+- [README.md](https://github.com/espressif/tflite-micro-esp-examples/blob/master/examples/hello_world/README.md?plain=1)
