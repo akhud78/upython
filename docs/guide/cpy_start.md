@@ -6,7 +6,11 @@
 !!! warning "Внимание"
     Сохраните свой старый код перед обновлением прошивки устройства!
 
+<<<<<<< HEAD:docs/guide/cpy_start.md
 - Скачайте последнюю версию [CircuitPython](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2/). Нужен файл с расширением `bin`.
+=======
+- Скачайте последнюю версию [CircuitPython](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2/). Нужен файл с расширением **bin**.
+>>>>>>> 6de111b0313d54bd72fe226d196a38b6ab0a5478:docs/tutorial.md
 - Подключите плату `ESP32-S3-DevKitC` к компьютеру через micro-USB разъем с маркировкой `USB`.
 - Переведите плату в загрузочный режим:
     - Удерживайте кнопку `BOOT`.
