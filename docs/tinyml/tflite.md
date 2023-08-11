@@ -75,3 +75,6 @@ person score:82%, no person score 18%
 I (6710) [esp_cli]: Time required for the inference is 56 ms
 
 ```
+
+## Другие примеры
+
