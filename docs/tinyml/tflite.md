@@ -1,9 +1,9 @@
 # TFLite Micro
 
-- [TinyML революционизирует машинное обучение во встроенных системах](https://clck.ru/35Grj6)
-> `TinyML` относится к применению машинного обучения и моделей глубокого обучения во встроенных системах с небольшими вычислительными ресурсами, таких как микроконтроллеры. Эти системы имеют сверхнизкое энергопотребление, ограниченный объем оперативной и флэш-памяти и работают с высокой задержкой.
-> 
-> [TFLite](https://www.tensorflow.org/lite?hl=ru) в настоящее время является основной средой для `TinyML`, предлагая поддержку микроконтроллеров, встроенных платформ Linux, Android и iOS. Модели TinyML имеют небольшой размер, обычно несколько килобайт, и выполняют определенные когнитивные задачи внутри устройства.
+![tinyML_book](media/tinyML_book.jpg)
+
+[TFLite](https://www.tensorflow.org/lite?hl=ru) в настоящее время является основной средой для `TinyML`, предлагая поддержку микроконтроллеров, встроенных платформ Linux, Android и iOS.
+
 - [TensorFlow Lite Micro for Espressif Chipsets](https://github.com/espressif/tflite-micro-esp-examples)
 
 ## Установка `TFLite`
@@ -26,7 +26,7 @@ ESP-IDF v5.0.2-dirty
 ```
 ## Примеры
 - [TensorFlow Lite для микроконтроллеров](https://www.tensorflow.org/lite/microcontrollers?hl=ru)
-## Пример `Hello World`
+### Hello World
 
 ```bash
 $ cd examples/hello_world/
@@ -42,7 +42,7 @@ $ idf.py build
 $ idf.py --port /dev/ttyUSB0 flash monitor
 ```
 
-## Пример `Person detection`
+### Person detection
 ```bash
 $ cd examples/person_detection/
 $ idf.py set-target esp32s3
@@ -63,30 +63,6 @@ $ idf.py --port /dev/ttyUSB0 flash monitor
 ```
 - Вывод
 ```bash
->> detect_image 0
-Total time = 54
-FC time = 0
-DC time = 24
-conv time = 29
-Pooling time = 0
-add time = 0
-mul time = 0
-person score:95%, no person score 5%
-I (6910) [esp_cli]: Time required for the inference is 56 ms
-
->> detect_image 1
-Total time = 54
-FC time = 0
-DC time = 24
-conv time = 29
-Pooling time = 0
-add time = 0
-mul time = 0
-person score:35%, no person score 65%
-I (6910) [esp_cli]: Time required for the inference is 56 ms
-
-...
-
 >> detect_image 9
 Total time = 54
 FC time = 0
@@ -99,4 +75,3 @@ person score:82%, no person score 18%
 I (6710) [esp_cli]: Time required for the inference is 56 ms
 
 ```
-

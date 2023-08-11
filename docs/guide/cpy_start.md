@@ -13,16 +13,16 @@
     - Нажмите и отпустите кнопку `RESET`.
     - Отпустите кнопку `BOOT`.
 
-### Обновление через `ESP Web Flasher`
+### Обновление через веб‑интерфейс
 
-- Откройте веб службу [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/) с помощью браузера [Chrome](https://www.google.com/intl/ru_ru/chrome/) версии `89` или новее.
+- Откройте [ESP Web Flasher](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/) с помощью браузера [Chrome](https://www.google.com/intl/ru_ru/chrome/) версии `89` или новее.
 - Установите скорость `230400 Baud`. 
 - Нажмите кнопку `Connect` и выберите соответствующий порт.
 - После успешного определения устройства нажмите кнопку `Erase` для очистки памяти. 
 - Нажмите верхнюю кнопку `Choose a file...` и выберите файл с прошивкой.
 - Нажмите кнопку `Program` и после завершения обновления прошивки нажмите `Disconnect`.
 
-### Обновление с помощью `esptool`
+### Утилита `esptool`
 - Установите через менеджер пакетов [pip](https://pip.pypa.io/en/stable/getting-started/) утилиту [esptool](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/index.html).
 ```bash
 $ pip install esptool
@@ -46,7 +46,7 @@ Board ID:espressif_esp32s3_devkitc_1_n8r2
 UID:C7FD1A2EB602
 ```
 
-## Запуск скрипта `rgb_blink`
+## Запуск скрипта
 
 - Для написания кода можно использовать любой текстовый редактор.
     - Простые комментарии начинаются со знака `#`.
